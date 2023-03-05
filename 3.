@@ -1,0 +1,15 @@
+/*
+3.Write a program to read 5 numbers from keyboard, using a loop.
+The program should work with any 5 numbers. Program ends by printing out the
+sum and average of the numbers.
+ */
+  print("pick 5 numbers");
+  sum = 0;
+  int a = 0;
+  for (int i =1; i <=5; i++){
+    int input = int.parse(stdin.readLineSync());
+    sum += input;
+    a = sum ~/ i;
+}
+  print("The sum of the numbers is $sum");
+  print("The average of the numbers is $a");
