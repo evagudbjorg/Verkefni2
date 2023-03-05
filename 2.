@@ -1,0 +1,10 @@
+/*
+2. Write a program that accepts input number from user and prints the multiplica-
+tion (1-10) table of the given number using for loop. Program should be able to
+accept any number - the example below only demonstrates if the users enters 5.
+ */
+int n = 5;
+for( int i =1; i <=10; ++i) {
+  int s = n*i;
+  print("$i * $n = $s");
+}
